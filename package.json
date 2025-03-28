@@ -46,7 +46,13 @@
   "devDependencies": {
     "@types/css-modules": "^1.0.5",
     "@types/react-redux": "^7.1.34",
+    "msw": "^2.7.3",
     "sass": "^1.86.0",
     "sass-loader": "^16.0.5"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
